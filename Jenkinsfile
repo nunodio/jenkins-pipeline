@@ -15,7 +15,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-              sh 'echo timeout3'
+              sh 'ls'
             }
         }
     }
